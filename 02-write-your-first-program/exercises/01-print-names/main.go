@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Print names
 //
@@ -24,6 +26,8 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ?
-	// ?
+	fmt.Println("Juan")
+	fmt.Print("Juan")
+	fmt.Println("Juan", "Juan", "Juan", "Juan", "Juan")
+	fmt.Print("Juan", "Juan", "Juan", "Juan", "Juan")
 }
